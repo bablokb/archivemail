@@ -22,6 +22,10 @@ overhead on your mail reader. The number of days before mail is considered
 'old' is up to you, but the default is 180 days. You can also archive messages
 by an absolute date or only archive unread messages.
 
+Since version 0.10.0, archivemail can also just export mails to an
+export-directory (instead storing mails in an 'archive' mbox). This is
+useful for the import of these mails to a mail-archiving software like
+Benno (http:/www.benno-mailarchiv.de).
 
 REQUIREMENTS:
 
