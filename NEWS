@@ -1,3 +1,9 @@
+Notable changes in archivemail 0.10.0:
+
+  * Added option -e: export mails in EML-format to an export directory.
+    This allows direct import into mail-archiving software which
+    needs this raw mail format as input
+
 Notable changes in archivemail 0.9.0:
   
   * IMAP: support for international mailbox names containing non-ASCII
