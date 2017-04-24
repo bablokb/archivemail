@@ -1,3 +1,7 @@
+version 0.10.0  - 24 April 2017
+
+  * Added option -e: export mails in EML-format to an export directory
+
 version 0.9.0   - 9 July 2011
 
   * Fixed manpage installation path to be FHS compliant
