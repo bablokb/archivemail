@@ -29,13 +29,13 @@
 
 <refentry>
 
-<docinfo><date>5 July 2011</date></docinfo>
+<docinfo><date>24 April 2017</date></docinfo>
 
 <refmeta>
 <refentrytitle>archivemail</refentrytitle>
 <manvolnum>1</manvolnum>
 <refmiscinfo class="manual">archivemail user manual</refmiscinfo>
-<refmiscinfo class="source">archivemail 0.9.0</refmiscinfo>
+<refmiscinfo class="source">archivemail 0.10.0</refmiscinfo>
 </refmeta>
 
 <refnamediv>
@@ -144,6 +144,15 @@ This option is incompatible with the <option>--days</option> option above.
 <listitem><para>Use the directory name <replaceable>PATH</replaceable> to
 store the mailbox archives. The default is the same directory as the mailbox
 to be read.
+</para></listitem>
+</varlistentry>
+
+<varlistentry>
+<term><option>-e <replaceable>PATH</replaceable></option></term>
+<term><option>--export-dir=<replaceable>PATH</replaceable></option></term>
+<listitem><para>Export files in EML-format to directory
+<replaceable>PATH</replaceable> instead of archiving to an (compressed)
+mbox-format.
 </para></listitem>
 </varlistentry>
 
@@ -788,7 +797,7 @@ reconstructed after selective message removal.
 <title>Author</title>
 <simpara> This manual page was written by Paul Rodger &lt;paul at paulrodger
 dot com&gt;. Updated and supplemented by Nikolaus Schulz
-<email>microschulz@web.de</email></simpara>
+<email>microschulz@web.de</email> and Bernhard Bablok<email>mail@bablokb.de</email></simpara>
 </refsect1>
 
 </refentry>
